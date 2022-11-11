@@ -18,6 +18,7 @@ Now available from Lulu:
 
 - Soft-cover: https://www.lulu.com/shop/oscar-toledo-gutierrez/programming-games-for-atari-2600/paperback/product-pq9dg4.html
 - Hard-cover: https://www.lulu.com/shop/oscar-toledo-gutierrez/programming-games-for-atari-2600/hardcover/product-n8z9r6.html
+- eBook: https://nanochess.org/store.html
 
 These are some of the example games documented profusely in the book:
 
