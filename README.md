@@ -16,8 +16,8 @@ These games are fully commented in my new book Programming Games for Atari 2600,
 
 Now available from Lulu:
 
-- Soft-cover: To be defined
-- Hard-cover: To be defined
+- Soft-cover: https://www.lulu.com/shop/oscar-toledo-gutierrez/programming-games-for-atari-2600/paperback/product-pq9dg4.html
+- Hard-cover: https://www.lulu.com/shop/oscar-toledo-gutierrez/programming-games-for-atari-2600/hardcover/product-n8z9r6.html
 
 These are some of the example games documented profusely in the book:
 
