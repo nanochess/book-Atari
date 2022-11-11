@@ -12,7 +12,7 @@ Currently none.
 
 ### NOTES:
 
-These games are fully commented in my new book Programming Games for Atari 2600, including a crash course on 6507 programming!
+These games are fully commented in my new book *Programming Games for Atari 2600*, including a crash course on 6507 programming!
 
 Now available from Lulu:
 
