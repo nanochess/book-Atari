@@ -6,10 +6,13 @@
 	;
 	; Creation date: Jul/01/2022.
 	; Revision date: Jul/03/2022. Completed.
+	; Revision date: Nov/13/2022. Added NTSC definition to choose NTSC/PAL.
 	;
 
 	PROCESSOR 6502
 	INCLUDE "vcs.h"
+
+NTSC	= 1		; Define to 1 for NTSC, 0 for PAL
 
 FRAME	= $80		; Displayed frames count.
 NEXTSPR	= $81		; Next sprite to show.
@@ -71,7 +74,11 @@ SHOW_FRAME:
 	STA WSYNC
 	STA WSYNC
 	STA WSYNC
+    IF NTSC
 	LDA #42		; Time for NTSC top border
+    ELSE
+	LDA #71		; Time for PAL top border
+    ENDIF
 	STA TIM64T
 	LDA #0		; End of vertical retrace.
 	STA VSYNC
@@ -331,7 +338,11 @@ M38:	STA WSYNC	; Synchronize with scanline.
 	STA WSYNC
 	STA VBLANK
 
+    IF NTSC
 	LDA #35		; Time for NTSC bottom border
+    ELSE
+	LDA #64		; Time for PAL bottom border
+    ENDIF
 	STA TIM64T
 
 	LDA #0		; Disable ALL graphics.
