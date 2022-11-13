@@ -5,10 +5,13 @@
 	; https://nanochess.org/
 	;
 	; Creation date: Nov/04/2022.
+	; Revision date: Nov/13/2022. Added NTSC definition to choose NTSC/PAL.
 	;
 
 	PROCESSOR 6502
 	INCLUDE "vcs.h"
+
+NTSC		= 1	; Define to 1 for NTSC, 0 for PAL
 
 FRAME_LOW	= $0080
 FRAME_HIGH	= $0081
@@ -39,7 +42,11 @@ SHOW_FRAME:
 	LDA #0
 	STA VSYNC
 
+    IF NTSC
 	LDX #36
+    ELSE
+	LDX #61
+    ENDIF
 TOP:
 	STA WSYNC
 	DEX
@@ -86,7 +93,11 @@ VISIBLE:
 
 	LDA #2
 	STA VBLANK
+    IF NTSC
 	LDX #30
+    ELSE
+	LDX #55
+    ENDIF
 BOTTOM:
 	STA WSYNC
 	DEX

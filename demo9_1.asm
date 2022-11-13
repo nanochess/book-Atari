@@ -1,5 +1,5 @@
 	;
-	; Diamond Craze (chapter 9)
+	; Diamond Craze (chapter 9 of Programming Games for Atari 2600)
 	;
 	; by Oscar Toledo G.
 	; https://nanochess.org/

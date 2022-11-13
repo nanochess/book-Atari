@@ -8,7 +8,7 @@ There is a bonus program here *palette.asm* that displays the Atari 2600 palette
 
 ### ERRATA FOR THE BOOK:
 
-Currently none.
+Page 15, should say 36 to 61, instead of 37 to 62.
 
 ### NOTES:
 
