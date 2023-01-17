@@ -8,7 +8,8 @@ There is a bonus program here *palette.asm* that displays the Atari 2600 palette
 
 ### ERRATA FOR THE BOOK:
 
-Page 15, should say 36 to 61, instead of 37 to 62.
+Page 15, it should say 36 to 61, instead of 37 to 62.
+Page 98, missing a STA WSYNC just before LDA #2 at the top of page, and it should say LDA #42, instead of LDA #43. The timing is still correct with the errata, but the corrections prevent a bug on certain TV sets. _discovered by @MechPala (Twitter)_
 
 ### NOTES:
 
