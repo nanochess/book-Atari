@@ -169,7 +169,7 @@ INVADE1:
 	DEC TEMP6	; Counter for bomb.
 	PHP		; Copy Z...
 	PLA		; ...into accumulator.
-	STA ENAM0	; Enable/disable ball.
+	STA ENAM0	; Enable/disable missile 0.
 
 	DEX		; Decrease X.
 	BNE INVADE1	; Repeat until zero.
@@ -205,7 +205,7 @@ INVADE2:
 	DEC TEMP6	; Counter for bomb.
 	PHP		; Copy Z...
 	PLA		; ...into accumulator.
-	STA ENAM0	; Enable/disable ball.
+	STA ENAM0	; Enable/disable missile 0.
 
 	DEX		; Decrease X.
 	BNE INVADE2	; Repeat until zero.
