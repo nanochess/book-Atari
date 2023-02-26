@@ -18,6 +18,8 @@ Page 164-165, for the assembly code lines saying _STA ENAM0_  the comment should
 
 Page 245, the comment saying "Zero for PF1" should be "Zero for PF2". _Discovered by @MechPala (Twitter)_
 
+Section 9.2 numbering is repeated but this doesn't affect the text, except if you are looking for the other section 9.2. _Discovered by @MechPala (Twitter)_
+
 ### NOTES:
 
 These games are fully commented in my new book *Programming Games for Atari 2600*, including a crash course on 6507 programming!
