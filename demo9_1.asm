@@ -307,7 +307,7 @@ M4:
 	LDY #0		; Zero for other playfield registers.
 	STY PF0		; Zero for PF0.
 	STA PF1		; Lifes in PF1.
-	STY PF2		; Zero for PF1.
+	STY PF2		; Zero for PF2.
 	LDA SCORE1	; First score digit.
 	ASL		; x2
 	ASL		; x4

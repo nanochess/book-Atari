@@ -16,6 +16,8 @@ Page 124, after the source code line _JMP M7_ there should be another line _M16:
 
 Page 164-165, for the assembly code lines saying _STA ENAM0_  the comment should read "Enable/Disable Missile 0". _Discovered by @MechPala (Twitter)_
 
+Page 245, the comment saying "Zero for PF1" should be "Zero for PF2". _Discovered by @MechPala (Twitter)_
+
 ### NOTES:
 
 These games are fully commented in my new book *Programming Games for Atari 2600*, including a crash course on 6507 programming!
