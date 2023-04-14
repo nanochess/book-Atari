@@ -24,10 +24,11 @@ Section 9.2 numbering is repeated but this doesn't affect the text, except if yo
 
 These games are fully commented in my new book *Programming Games for Atari 2600*, including a crash course on 6507 programming!
 
-Now available from Lulu:
+Now available from Lulu and Amazon:
 
 - Soft-cover: https://www.lulu.com/shop/oscar-toledo-gutierrez/programming-games-for-atari-2600/paperback/product-pq9dg4.html
 - Hard-cover: https://www.lulu.com/shop/oscar-toledo-gutierrez/programming-games-for-atari-2600/hardcover/product-n8z9r6.html
+- Amazon: https://www.amazon.com/dp/1387809962
 - eBook: https://nanochess.org/store.html
 
 These are some of the example games documented profusely in the book:
