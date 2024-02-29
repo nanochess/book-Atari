@@ -1,4 +1,4 @@
-The internal loop should fit	;
+	;
 	; Horizontal positioning demo (Chapter 3 section 1)
 	;
 	; by Oscar Toledo G.
